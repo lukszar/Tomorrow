@@ -1,0 +1,7 @@
+# Tomorrow document generator jazzy settings
+
+copyright: Copyright 2020 Mobilee
+author: Łukasz Szarkowicz
+xcodebuild_arguments: [-target, Tomorrow-iOS]
+clean: true
+output: ./Documentation
