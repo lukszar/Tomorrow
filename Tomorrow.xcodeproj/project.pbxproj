@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3724C92D2439110E0074F94F /* ISO8601Formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3724C92C2439110E0074F94F /* ISO8601Formatter.swift */; };
+		3724C92E2439110E0074F94F /* ISO8601Formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3724C92C2439110E0074F94F /* ISO8601Formatter.swift */; };
+		3724C92F2439110E0074F94F /* ISO8601Formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3724C92C2439110E0074F94F /* ISO8601Formatter.swift */; };
+		3724C9302439110E0074F94F /* ISO8601Formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3724C92C2439110E0074F94F /* ISO8601Formatter.swift */; };
+		3724C9322439147C0074F94F /* Date+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3724C9312439147C0074F94F /* Date+String.swift */; };
+		3724C9332439147C0074F94F /* Date+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3724C9312439147C0074F94F /* Date+String.swift */; };
+		3724C9342439147C0074F94F /* Date+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3724C9312439147C0074F94F /* Date+String.swift */; };
+		3724C9352439147C0074F94F /* Date+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3724C9312439147C0074F94F /* Date+String.swift */; };
 		3D9C42A222745900000A6585 /* Tomorrow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9C42A122745900000A6585 /* Tomorrow.swift */; };
 		3D9C42B1227459C1000A6585 /* Tomorrow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9C42A122745900000A6585 /* Tomorrow.swift */; };
 		3D9C42BF227459F6000A6585 /* Tomorrow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9C42A122745900000A6585 /* Tomorrow.swift */; };
@@ -71,6 +79,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3724C92C2439110E0074F94F /* ISO8601Formatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISO8601Formatter.swift; sourceTree = "<group>"; };
+		3724C9312439147C0074F94F /* Date+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+String.swift"; sourceTree = "<group>"; };
 		3D9C429022745894000A6585 /* Tomorrow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Tomorrow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D9C429C227458E8000A6585 /* Tomorrow.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Tomorrow.plist; sourceTree = "<group>"; };
 		3D9C429D227458E8000A6585 /* TomorrowTests.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TomorrowTests.plist; sourceTree = "<group>"; };
@@ -202,10 +212,6 @@
 				3D9C42DB22745DB0000A6585 /* .gitignore */,
 				3D9C42D822745DAF000A6585 /* .jazzy.yaml */,
 				3D9C42D922745DAF000A6585 /* .swiftlint.yml */,
-				3DB91AC4229AC263002668DA,
-				3DB91AC5229AC26C002668DA,
-				3DB91AC6229AC272002668DA,
-				3DF6F6282315616D00706C4E,
 			);
 			path = Configs;
 			sourceTree = "<group>";
@@ -214,6 +220,8 @@
 			isa = PBXGroup;
 			children = (
 				3D9C42A122745900000A6585 /* Tomorrow.swift */,
+				3724C92C2439110E0074F94F /* ISO8601Formatter.swift */,
+				3724C9312439147C0074F94F /* Date+String.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -634,6 +642,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D9C42A222745900000A6585 /* Tomorrow.swift in Sources */,
+				3724C92D2439110E0074F94F /* ISO8601Formatter.swift in Sources */,
+				3724C9322439147C0074F94F /* Date+String.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -642,6 +652,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D9C42B1227459C1000A6585 /* Tomorrow.swift in Sources */,
+				3724C92E2439110E0074F94F /* ISO8601Formatter.swift in Sources */,
+				3724C9332439147C0074F94F /* Date+String.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -650,6 +662,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D9C42BF227459F6000A6585 /* Tomorrow.swift in Sources */,
+				3724C92F2439110E0074F94F /* ISO8601Formatter.swift in Sources */,
+				3724C9342439147C0074F94F /* Date+String.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -658,6 +672,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D9C42CD22745A28000A6585 /* Tomorrow.swift in Sources */,
+				3724C9302439110E0074F94F /* ISO8601Formatter.swift in Sources */,
+				3724C9352439147C0074F94F /* Date+String.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
