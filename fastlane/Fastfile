@@ -103,4 +103,9 @@ platform :ios do
     spm(command: "clean")
   end
 
+  desc "Create jazzy documentation"
+  lane :generateDoc do
+    jazzy
+  end
+
 end
