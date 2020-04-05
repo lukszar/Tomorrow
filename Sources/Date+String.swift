@@ -27,7 +27,7 @@ public extension Date {
      
      - returns: Date object created from given string.
      */
-    func fromISO(_ string: String) -> Date? {
+    static func fromISO(_ string: String) -> Date? {
         return Tomorrow.date(from: string)
     }
 }
