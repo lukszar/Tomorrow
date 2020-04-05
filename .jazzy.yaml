@@ -5,3 +5,4 @@ author: Łukasz Szarkowicz
 xcodebuild_arguments: [-target, Tomorrow-iOS]
 clean: true
 output: ./Documentation
+author_url: https://mobilee.pl/
