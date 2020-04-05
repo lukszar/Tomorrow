@@ -1,5 +1,5 @@
 <p align="center">
-   <img width="200" src="https://raw.githubusercontent.com/SvenTiigi/SwiftKit/gh-pages/readMeAssets/SwiftKitLogo.png" alt="Tomorrow Logo">
+   <img src="Logo.png" width="600" max-width="90%" alt="Tomorrow" />
 </p>
 
 <p align="center">
@@ -22,17 +22,25 @@
 
 # Tomorrow
 
-<p align="center">
-ℹ️ Short description of Tomorrow
-</p>
+📆 Simple Swift Tool for convenience Date usage in your project.
+
 
 ## Features
 
-- [x] ℹ️ Add Tomorrow features
+- ℹ️ Parsing ISO8601 String to Date
+- Auto handling formats with and without miliseconds
+- Use ISO8601DateFormatter in new systems (iOS 11.0+, macOS 10.13+, tvOS 11.0+, watchOS 4.0+)
 
 ## Example
 
-The example application is the best way to see `Tomorrow` in action. Simply open the `Tomorrow.xcodeproj` and run the `Example` scheme.
+```swift
+   
+// "2020-11-01T21:10:56Z"
+// "2020-11-01T21:10:56.715+01:00"
+// "2020-11-01T21:10:56.22+02:00"
+
+let date = Date.fromISO("2020-11-01T21:10:56.22+02:00")
+```
 
 ## Installation
 
@@ -52,7 +60,7 @@ pod 'Tomorrow'
 To integrate Tomorrow into your Xcode project using Carthage, specify it in your `Cartfile`:
 
 ```ogdl
-github "ŁukaszSzarkowicz/Tomorrow"
+github "lukszar/Tomorrow"
 ```
 
 Run `carthage update` to build the framework and drag the built `Tomorrow.framework` into your Xcode project. 
@@ -65,7 +73,7 @@ To integrate using Apple's [Swift Package Manager](https://swift.org/package-man
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/ŁukaszSzarkowicz/Tomorrow.git", from: "1.0.0")
+    .package(url: "https://github.com/lukszar/Tomorrow.git", from: "1.0.0")
 ]
 ```
 
@@ -75,9 +83,12 @@ Alternatively navigate to your Xcode project, select `Swift Packages` and click 
 
 If you prefer not to use any of the aforementioned dependency managers, you can integrate Tomorrow into your project manually. Simply drag the `Sources` Folder into your Xcode project.
 
-## Usage
+## Further development
 
-ℹ️ Describe the usage of your Kit
+This simple tool was created to check [SwiftKit](https://github.com/SvenTiigi/SwiftKit) in action.
+I plan to extend this tool with new features soon. Stay tuned!
+
+
 
 ## Contributing
 Contributions are very welcome 🙌
