@@ -28,7 +28,7 @@
 ## Features
 
 - ℹ️ Parsing ISO8601 String to Date
-- Auto handling formats with and without miliseconds
+- Auto handling formats with and without milliseconds
 - Use ISO8601DateFormatter in new systems (iOS 11.0+, macOS 10.13+, tvOS 11.0+, watchOS 4.0+)
 
 ## Example
