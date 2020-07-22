@@ -110,6 +110,16 @@ class TomorrowTests: XCTestCase {
         XCTAssertEqual(seconds, component.seconds, "Wrong seconds - \(seconds) - should be \(component.seconds) ")
     }
     
+    func testStringToDate() {
+        for (dateString, components) in dates {
+            let date = Date.fromISO(dateString)
+            
+            XCTAssertNotNil(date)
+    
+            compareDateComponents(date!, component: components)
+        }
+    }
+    
 
     func testPerformanceExample() {
         // This is an example of a performance test case.
