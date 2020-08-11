@@ -120,6 +120,31 @@ class TomorrowTests: XCTestCase {
         }
     }
     
+    @available(iOS 11.0, tvOSApplicationExtension 11.0, tvOS 11.0, watchOSApplicationExtension 4.0, OSXApplicationExtension 10.13, macOS 10.13, *)
+    func testNewFormatterConversionWhenInvalidStringProvidedShouldReturnNil() {
+        // Arrange
+        let newFormatter = NewISO8601Formatter()
+        let dateString = "This is not valid date string"
+        
+        // Act
+        let newDate = newFormatter.date(from: dateString)
+       
+        // Asserts
+        XCTAssertNil(newDate)
+    }
+    
+    func testConversionWhenInvalidStringProviderShouldReturnNil() {
+        // Arrange
+        let oldFormatter = OldISO8601Formatter()
+        let dateString = "This is not valid date string"
+        // Act
+        let oldDate = oldFormatter.date(from: dateString)
+        let date = Tomorrow.date(from: dateString)
+        // Asserts
+        XCTAssertNil(date)
+        XCTAssertNil(oldDate)
+    }
+    
 
     func testPerformanceExample() {
         // This is an example of a performance test case.
