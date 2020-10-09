@@ -46,7 +46,7 @@ class OldISO8601Formatter: ISO8601Formatter {
     }
 }
 
-@available(iOS 11.0, tvOSApplicationExtension 11.0, tvOS 11.0, watchOSApplicationExtension 4.0, OSXApplicationExtension 10.13, macOS 10.13, *)
+@available(iOS 11.2.1, tvOSApplicationExtension 11.0, tvOS 11.0, watchOSApplicationExtension 4.0, OSXApplicationExtension 10.13, macOS 10.13, *)
 class NewISO8601Formatter: ISO8601Formatter {
     
     /// Formatter for ISO8601 with milliseconds

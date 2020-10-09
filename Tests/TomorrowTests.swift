@@ -61,7 +61,7 @@ class TomorrowTests: XCTestCase {
         }
     }
     
-    @available(iOS 11.0, tvOSApplicationExtension 11.0, tvOS 11.0, watchOSApplicationExtension 4.0, OSXApplicationExtension 10.13, macOS 10.13, *)
+    @available(iOS 11.2.1, tvOSApplicationExtension 11.0, tvOS 11.0, watchOSApplicationExtension 4.0, OSXApplicationExtension 10.13, macOS 10.13, *)
     func testNewFormatterShouldReturnNotNil() {
         let formatter = NewISO8601Formatter()
         for element in dates.keys {
@@ -70,7 +70,7 @@ class TomorrowTests: XCTestCase {
         }
     }
     
-    @available(iOS 11.0, tvOSApplicationExtension 11.0, tvOS 11.0, watchOSApplicationExtension 4.0, OSXApplicationExtension 10.13, macOS 10.13, *)
+    @available(iOS 11.2.1, tvOSApplicationExtension 11.0, tvOS 11.0, watchOSApplicationExtension 4.0, OSXApplicationExtension 10.13, macOS 10.13, *)
     func testNewFormatterShouldReturnCorrectDateComponents() {
         let formatter = NewISO8601Formatter()
         
@@ -120,7 +120,7 @@ class TomorrowTests: XCTestCase {
         }
     }
     
-    @available(iOS 11.0, tvOSApplicationExtension 11.0, tvOS 11.0, watchOSApplicationExtension 4.0, OSXApplicationExtension 10.13, macOS 10.13, *)
+    @available(iOS 11.2.1, tvOSApplicationExtension 11.0, tvOS 11.0, watchOSApplicationExtension 4.0, OSXApplicationExtension 10.13, macOS 10.13, *)
     func testNewFormatterConversionWhenInvalidStringProvidedShouldReturnNil() {
         // Arrange
         let newFormatter = NewISO8601Formatter()

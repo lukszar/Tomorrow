@@ -18,10 +18,10 @@ public class Tomorrow {
     static private let shared = Tomorrow()
     
     lazy var formatter: ISO8601Formatter = {
-        if #available(iOS 11.0, tvOSApplicationExtension 11.0, tvOS 11.0, watchOSApplicationExtension 4.0, OSXApplicationExtension 10.13, macOS 10.13, *) {
+        if #available(iOS 11.2.1, tvOSApplicationExtension 11.0, tvOS 11.0, watchOSApplicationExtension 4.0, OSXApplicationExtension 10.13, macOS 10.13, *) {
             return NewISO8601Formatter()
         } else {
-            /// For system version lower than iOS 11.0
+            /// For system version lower than iOS 11.2.1
             return OldISO8601Formatter()
         }
     }()
