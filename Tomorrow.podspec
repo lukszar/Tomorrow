@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                      = "Tomorrow"
-  s.version                   = "1.0.3"
+  s.version                   = "1.0.4"
   s.summary                   = "Tomorrow"
   s.homepage                  = "https://github.com/lukszar/Tomorrow"
   s.license                   = { :type => "MIT", :file => "LICENSE" }
