@@ -25,7 +25,7 @@ platform :ios do
     # Push Git commit
     push_to_git_remote()
     # Pod push / Pod trunk
-    pod_push()
+    pod_push(allow_warnings: true)
   end
 
   desc "Increment Version"
@@ -82,25 +82,26 @@ platform :ios do
       clean: true
     )
     # Perform macOS Tests
-    spm(command: "test")
+    # spm(command: "test")
     # Delete SPM build artifacts
-    spm(command: "clean")
+    # spm(command: "clean")
   end
 
   desc "Run Dependency-Manager compatibility tests"
   lane :compatibilityTests do
     # Carthage build to ensure Carthage compatibility
-    carthage(
-      command: "build", 
-      no_skip_current: true, 
-      cache_builds: true
-    )
+    sh 'carthage build --no-skip-current --cache-builds'
+    # carthage(
+    #   command: "build", 
+    #   no_skip_current: true, 
+    #   cache_builds: true
+    # )
     # Pod lib lint to ensure CocoaPods compatibility
     pod_lib_lint(allow_warnings: true)
     # SPM Build to ensure Swift Package Manager compatibility
-    spm(command: "build")
+    # spm(command: "build")
     # Delete SPM build artifacts
-    spm(command: "clean")
+    # spm(command: "clean")
   end
 
   desc "Create jazzy documentation"
