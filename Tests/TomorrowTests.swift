@@ -145,6 +145,14 @@ class TomorrowTests: XCTestCase {
         XCTAssertNil(oldDate)
     }
     
+    func testConversionDateToString() {
+        let date = Date()
+    
+        let stringDate = Tomorrow.string(from: date, milliseconds: false)
+        
+        XCTAssertNotNil(stringDate)
+    }
+    
 
     func testPerformanceExample() {
         // This is an example of a performance test case.
