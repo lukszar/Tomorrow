@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		372075482861F8B600A37019 /* DateComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372075472861F8B600A37019 /* DateComponents.swift */; };
+		372075492861F8B600A37019 /* DateComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372075472861F8B600A37019 /* DateComponents.swift */; };
+		3720754A2861F8B600A37019 /* DateComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372075472861F8B600A37019 /* DateComponents.swift */; };
+		3720754B2861F8B600A37019 /* DateComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372075472861F8B600A37019 /* DateComponents.swift */; };
 		3724C92D2439110E0074F94F /* ISO8601Formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3724C92C2439110E0074F94F /* ISO8601Formatter.swift */; };
 		3724C92E2439110E0074F94F /* ISO8601Formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3724C92C2439110E0074F94F /* ISO8601Formatter.swift */; };
 		3724C92F2439110E0074F94F /* ISO8601Formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3724C92C2439110E0074F94F /* ISO8601Formatter.swift */; };
@@ -79,6 +83,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		372075472861F8B600A37019 /* DateComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateComponents.swift; sourceTree = "<group>"; };
 		3724C92C2439110E0074F94F /* ISO8601Formatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISO8601Formatter.swift; sourceTree = "<group>"; };
 		3724C9312439147C0074F94F /* Date+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+String.swift"; sourceTree = "<group>"; };
 		3D9C429022745894000A6585 /* Tomorrow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Tomorrow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -222,6 +227,7 @@
 				3D9C42A122745900000A6585 /* Tomorrow.swift */,
 				3724C92C2439110E0074F94F /* ISO8601Formatter.swift */,
 				3724C9312439147C0074F94F /* Date+String.swift */,
+				372075472861F8B600A37019 /* DateComponents.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -644,6 +650,7 @@
 				3D9C42A222745900000A6585 /* Tomorrow.swift in Sources */,
 				3724C92D2439110E0074F94F /* ISO8601Formatter.swift in Sources */,
 				3724C9322439147C0074F94F /* Date+String.swift in Sources */,
+				372075482861F8B600A37019 /* DateComponents.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -654,6 +661,7 @@
 				3D9C42B1227459C1000A6585 /* Tomorrow.swift in Sources */,
 				3724C92E2439110E0074F94F /* ISO8601Formatter.swift in Sources */,
 				3724C9332439147C0074F94F /* Date+String.swift in Sources */,
+				372075492861F8B600A37019 /* DateComponents.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -664,6 +672,7 @@
 				3D9C42BF227459F6000A6585 /* Tomorrow.swift in Sources */,
 				3724C92F2439110E0074F94F /* ISO8601Formatter.swift in Sources */,
 				3724C9342439147C0074F94F /* Date+String.swift in Sources */,
+				3720754A2861F8B600A37019 /* DateComponents.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -674,6 +683,7 @@
 				3D9C42CD22745A28000A6585 /* Tomorrow.swift in Sources */,
 				3724C9302439110E0074F94F /* ISO8601Formatter.swift in Sources */,
 				3724C9352439147C0074F94F /* Date+String.swift in Sources */,
+				3720754B2861F8B600A37019 /* DateComponents.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
