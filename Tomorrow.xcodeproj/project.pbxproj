@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		370FB8E728EB3C30000BAD5C /* DateWeekdayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370FB8E628EB3C30000BAD5C /* DateWeekdayTests.swift */; };
 		372075482861F8B600A37019 /* DateComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372075472861F8B600A37019 /* DateComponents.swift */; };
 		372075492861F8B600A37019 /* DateComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372075472861F8B600A37019 /* DateComponents.swift */; };
 		3720754A2861F8B600A37019 /* DateComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372075472861F8B600A37019 /* DateComponents.swift */; };
@@ -83,6 +84,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		370FB8E628EB3C30000BAD5C /* DateWeekdayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateWeekdayTests.swift; sourceTree = "<group>"; };
 		372075472861F8B600A37019 /* DateComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateComponents.swift; sourceTree = "<group>"; };
 		3724C92C2439110E0074F94F /* ISO8601Formatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISO8601Formatter.swift; sourceTree = "<group>"; };
 		3724C9312439147C0074F94F /* Date+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+String.swift"; sourceTree = "<group>"; };
@@ -237,6 +239,7 @@
 			children = (
 				3D9C42EC22745FDA000A6585 /* LinuxMain.swift */,
 				3D9C42D722745CDE000A6585 /* TomorrowTests.swift */,
+				370FB8E628EB3C30000BAD5C /* DateWeekdayTests.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -691,6 +694,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				370FB8E728EB3C30000BAD5C /* DateWeekdayTests.swift in Sources */,
 				3D9C42FC22746078000A6585 /* TomorrowTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

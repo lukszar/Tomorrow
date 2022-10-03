@@ -10,6 +10,14 @@ import Foundation
 
 public extension Date {
     
+    /// Weekday name in locale language
+    var weekdayName: String {
+        let calendar = Calendar.current
+        let weekday = calendar.component(.weekday, from: self)
+        
+        return calendar.shortWeekdaySymbols[weekday-1]
+    }
+    
     /// Check if date is the same day as today
     var isToday: Bool {
         Calendar.current.isDateInToday(self)
