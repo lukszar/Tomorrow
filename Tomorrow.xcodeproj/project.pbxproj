@@ -21,6 +21,10 @@
 		3724C9342439147C0074F94F /* Date+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3724C9312439147C0074F94F /* Date+String.swift */; };
 		3724C9352439147C0074F94F /* Date+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3724C9312439147C0074F94F /* Date+String.swift */; };
 		372E834328FD908900A2B498 /* DateMonthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372E834228FD908900A2B498 /* DateMonthTests.swift */; };
+		37B9C7E028FD9564002B5605 /* DateWeekdayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370FB8E628EB3C30000BAD5C /* DateWeekdayTests.swift */; };
+		37B9C7E128FD9565002B5605 /* DateWeekdayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370FB8E628EB3C30000BAD5C /* DateWeekdayTests.swift */; };
+		37B9C7E228FD9567002B5605 /* DateMonthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372E834228FD908900A2B498 /* DateMonthTests.swift */; };
+		37B9C7E328FD9568002B5605 /* DateMonthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372E834228FD908900A2B498 /* DateMonthTests.swift */; };
 		3D9C42A222745900000A6585 /* Tomorrow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9C42A122745900000A6585 /* Tomorrow.swift */; };
 		3D9C42B1227459C1000A6585 /* Tomorrow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9C42A122745900000A6585 /* Tomorrow.swift */; };
 		3D9C42BF227459F6000A6585 /* Tomorrow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9C42A122745900000A6585 /* Tomorrow.swift */; };
@@ -707,7 +711,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37B9C7E028FD9564002B5605 /* DateWeekdayTests.swift in Sources */,
 				3D9C430C22746131000A6585 /* TomorrowTests.swift in Sources */,
+				37B9C7E228FD9567002B5605 /* DateMonthTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -715,7 +721,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37B9C7E128FD9565002B5605 /* DateWeekdayTests.swift in Sources */,
 				3D9C431C227461AF000A6585 /* TomorrowTests.swift in Sources */,
+				37B9C7E328FD9568002B5605 /* DateMonthTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
