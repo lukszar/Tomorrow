@@ -21,6 +21,13 @@
 		3724C9342439147C0074F94F /* Date+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3724C9312439147C0074F94F /* Date+String.swift */; };
 		3724C9352439147C0074F94F /* Date+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3724C9312439147C0074F94F /* Date+String.swift */; };
 		372E834328FD908900A2B498 /* DateMonthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372E834228FD908900A2B498 /* DateMonthTests.swift */; };
+		3751EA8628FDEB3100657188 /* DateInterval+Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3751EA8528FDEB3100657188 /* DateInterval+Components.swift */; };
+		3751EA8728FDEB3100657188 /* DateInterval+Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3751EA8528FDEB3100657188 /* DateInterval+Components.swift */; };
+		3751EA8828FDEB3100657188 /* DateInterval+Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3751EA8528FDEB3100657188 /* DateInterval+Components.swift */; };
+		3751EA8928FDEB3100657188 /* DateInterval+Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3751EA8528FDEB3100657188 /* DateInterval+Components.swift */; };
+		3751EA8B28FDEE1400657188 /* DateIntervalComponentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3751EA8A28FDEE1400657188 /* DateIntervalComponentTests.swift */; };
+		3751EA8C28FDEE1800657188 /* DateIntervalComponentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3751EA8A28FDEE1400657188 /* DateIntervalComponentTests.swift */; };
+		3751EA8D28FDEE1800657188 /* DateIntervalComponentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3751EA8A28FDEE1400657188 /* DateIntervalComponentTests.swift */; };
 		3D9C42A222745900000A6585 /* Tomorrow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9C42A122745900000A6585 /* Tomorrow.swift */; };
 		3D9C42B1227459C1000A6585 /* Tomorrow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9C42A122745900000A6585 /* Tomorrow.swift */; };
 		3D9C42BF227459F6000A6585 /* Tomorrow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9C42A122745900000A6585 /* Tomorrow.swift */; };
@@ -90,6 +97,8 @@
 		3724C92C2439110E0074F94F /* ISO8601Formatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISO8601Formatter.swift; sourceTree = "<group>"; };
 		3724C9312439147C0074F94F /* Date+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+String.swift"; sourceTree = "<group>"; };
 		372E834228FD908900A2B498 /* DateMonthTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateMonthTests.swift; sourceTree = "<group>"; };
+		3751EA8528FDEB3100657188 /* DateInterval+Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateInterval+Components.swift"; sourceTree = "<group>"; };
+		3751EA8A28FDEE1400657188 /* DateIntervalComponentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateIntervalComponentTests.swift; sourceTree = "<group>"; };
 		3D9C429022745894000A6585 /* Tomorrow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Tomorrow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D9C429C227458E8000A6585 /* Tomorrow.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Tomorrow.plist; sourceTree = "<group>"; };
 		3D9C429D227458E8000A6585 /* TomorrowTests.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TomorrowTests.plist; sourceTree = "<group>"; };
@@ -232,6 +241,7 @@
 				3724C92C2439110E0074F94F /* ISO8601Formatter.swift */,
 				3724C9312439147C0074F94F /* Date+String.swift */,
 				372075472861F8B600A37019 /* DateComponents.swift */,
+				3751EA8528FDEB3100657188 /* DateInterval+Components.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -243,6 +253,7 @@
 				3D9C42D722745CDE000A6585 /* TomorrowTests.swift */,
 				370FB8E628EB3C30000BAD5C /* DateWeekdayTests.swift */,
 				372E834228FD908900A2B498 /* DateMonthTests.swift */,
+				3751EA8A28FDEE1400657188 /* DateIntervalComponentTests.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -656,6 +667,7 @@
 				3D9C42A222745900000A6585 /* Tomorrow.swift in Sources */,
 				3724C92D2439110E0074F94F /* ISO8601Formatter.swift in Sources */,
 				3724C9322439147C0074F94F /* Date+String.swift in Sources */,
+				3751EA8628FDEB3100657188 /* DateInterval+Components.swift in Sources */,
 				372075482861F8B600A37019 /* DateComponents.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -667,6 +679,7 @@
 				3D9C42B1227459C1000A6585 /* Tomorrow.swift in Sources */,
 				3724C92E2439110E0074F94F /* ISO8601Formatter.swift in Sources */,
 				3724C9332439147C0074F94F /* Date+String.swift in Sources */,
+				3751EA8728FDEB3100657188 /* DateInterval+Components.swift in Sources */,
 				372075492861F8B600A37019 /* DateComponents.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -678,6 +691,7 @@
 				3D9C42BF227459F6000A6585 /* Tomorrow.swift in Sources */,
 				3724C92F2439110E0074F94F /* ISO8601Formatter.swift in Sources */,
 				3724C9342439147C0074F94F /* Date+String.swift in Sources */,
+				3751EA8828FDEB3100657188 /* DateInterval+Components.swift in Sources */,
 				3720754A2861F8B600A37019 /* DateComponents.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -689,6 +703,7 @@
 				3D9C42CD22745A28000A6585 /* Tomorrow.swift in Sources */,
 				3724C9302439110E0074F94F /* ISO8601Formatter.swift in Sources */,
 				3724C9352439147C0074F94F /* Date+String.swift in Sources */,
+				3751EA8928FDEB3100657188 /* DateInterval+Components.swift in Sources */,
 				3720754B2861F8B600A37019 /* DateComponents.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -697,6 +712,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3751EA8B28FDEE1400657188 /* DateIntervalComponentTests.swift in Sources */,
 				370FB8E728EB3C30000BAD5C /* DateWeekdayTests.swift in Sources */,
 				3D9C42FC22746078000A6585 /* TomorrowTests.swift in Sources */,
 				372E834328FD908900A2B498 /* DateMonthTests.swift in Sources */,
@@ -707,6 +723,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3751EA8C28FDEE1800657188 /* DateIntervalComponentTests.swift in Sources */,
 				3D9C430C22746131000A6585 /* TomorrowTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -715,6 +732,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3751EA8D28FDEE1800657188 /* DateIntervalComponentTests.swift in Sources */,
 				3D9C431C227461AF000A6585 /* TomorrowTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
