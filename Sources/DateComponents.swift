@@ -10,6 +10,15 @@ import Foundation
 
 public extension Date {
     
+    /// Month name in locale language
+    var monthName: String {
+        var calendar = Calendar.current
+        calendar.locale = .autoupdatingCurrent
+        let month = calendar.component(.month, from: self)
+        
+        return calendar.standaloneMonthSymbols[month-1]
+    }
+    
     /// Weekday name in locale language
     var weekdayName: String {
         let calendar = Calendar.current

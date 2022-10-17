@@ -20,6 +20,7 @@
 		3724C9332439147C0074F94F /* Date+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3724C9312439147C0074F94F /* Date+String.swift */; };
 		3724C9342439147C0074F94F /* Date+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3724C9312439147C0074F94F /* Date+String.swift */; };
 		3724C9352439147C0074F94F /* Date+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3724C9312439147C0074F94F /* Date+String.swift */; };
+		372E834328FD908900A2B498 /* DateMonthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372E834228FD908900A2B498 /* DateMonthTests.swift */; };
 		3D9C42A222745900000A6585 /* Tomorrow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9C42A122745900000A6585 /* Tomorrow.swift */; };
 		3D9C42B1227459C1000A6585 /* Tomorrow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9C42A122745900000A6585 /* Tomorrow.swift */; };
 		3D9C42BF227459F6000A6585 /* Tomorrow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9C42A122745900000A6585 /* Tomorrow.swift */; };
@@ -88,6 +89,7 @@
 		372075472861F8B600A37019 /* DateComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateComponents.swift; sourceTree = "<group>"; };
 		3724C92C2439110E0074F94F /* ISO8601Formatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISO8601Formatter.swift; sourceTree = "<group>"; };
 		3724C9312439147C0074F94F /* Date+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+String.swift"; sourceTree = "<group>"; };
+		372E834228FD908900A2B498 /* DateMonthTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateMonthTests.swift; sourceTree = "<group>"; };
 		3D9C429022745894000A6585 /* Tomorrow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Tomorrow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D9C429C227458E8000A6585 /* Tomorrow.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Tomorrow.plist; sourceTree = "<group>"; };
 		3D9C429D227458E8000A6585 /* TomorrowTests.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TomorrowTests.plist; sourceTree = "<group>"; };
@@ -240,6 +242,7 @@
 				3D9C42EC22745FDA000A6585 /* LinuxMain.swift */,
 				3D9C42D722745CDE000A6585 /* TomorrowTests.swift */,
 				370FB8E628EB3C30000BAD5C /* DateWeekdayTests.swift */,
+				372E834228FD908900A2B498 /* DateMonthTests.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -696,6 +699,7 @@
 			files = (
 				370FB8E728EB3C30000BAD5C /* DateWeekdayTests.swift in Sources */,
 				3D9C42FC22746078000A6585 /* TomorrowTests.swift in Sources */,
+				372E834328FD908900A2B498 /* DateMonthTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
