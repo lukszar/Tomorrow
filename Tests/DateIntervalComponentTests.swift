@@ -9,7 +9,7 @@
 import XCTest
 @testable import Tomorrow
 
-@available(iOS 10.0, tvOSApplicationExtension 1.0, tvOS 1.0, watchOSApplicationExtension 1.0, OSXApplicationExtension 10.1, macOS 10.1, *)
+@available(iOS 10.0, tvOSApplicationExtension 10.0, tvOS 10.0, watchOSApplicationExtension 1.0, OSXApplicationExtension 10.12, macOS 10.12, *)
 class DateIntervalComponentTests: XCTestCase {
     
     var startDate: Date!
