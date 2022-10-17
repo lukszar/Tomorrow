@@ -9,7 +9,7 @@
 import Foundation
 
 @available(iOS 10.0, tvOSApplicationExtension 10.0, tvOS 10.0, watchOSApplicationExtension 3.0, OSXApplicationExtension 10.12, macOS 10.12, *)
-extension DateInterval {
+public extension DateInterval {
     
     /**
      Calculates duration using given components.
