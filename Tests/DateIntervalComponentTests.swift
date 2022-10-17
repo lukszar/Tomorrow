@@ -9,7 +9,7 @@
 import XCTest
 @testable import Tomorrow
 
-@available(iOS 10.0, tvOSApplicationExtension 10.0, tvOS 10.0, watchOSApplicationExtension 1.0, OSXApplicationExtension 10.12, macOS 10.12, *)
+@available(iOS 10.0, tvOSApplicationExtension 10.0, tvOS 10.0, watchOSApplicationExtension 4.0, OSXApplicationExtension 10.12, macOS 10.12, *)
 class DateIntervalComponentTests: XCTestCase {
     
     var startDate: Date!
@@ -66,11 +66,4 @@ class DateIntervalComponentTests: XCTestCase {
         XCTAssertEqual(comps.day, 1)
         XCTAssertEqual(comps.hour, 1)
     }
-    
-    @available(iOS 15.0, tvOSApplicationExtension 15.0, tvOS 15.0, watchOSApplicationExtension 8.0, OSXApplicationExtension 12.0, macOS 12.0, *)
-    func testShortDescription() {
-        let desc = interval.shortDescription()
-        XCTAssertEqual(desc, "1 doba 1godz. 30min")
-    }
-
 }
