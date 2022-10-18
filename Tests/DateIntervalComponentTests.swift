@@ -66,4 +66,10 @@ class DateIntervalComponentTests: XCTestCase {
         XCTAssertEqual(comps.day, 1)
         XCTAssertEqual(comps.hour, 1)
     }
+    
+    func testDescription() {
+        let desc = interval.durationDescription(maxUnitsCount: 2)
+        
+        XCTAssertEqual(desc, "1 doba i 2 godz.")
+    }
 }

@@ -64,4 +64,19 @@ public extension DateInterval {
     func shortDescription() -> String {
         return (start..<end).formatted(.components(style: .narrow, fields: [.year, .month, .day, .hour, .minute, .second]))
     }
+    
+    /**
+     Creates String description for time interval between start and end dates. Format uses `short` style.
+     
+     - parameter maxUnitsCount: Number of units included in presentation
+     
+     - returns: String describing time interval.
+     */
+    func durationDescription(maxUnitsCount: Int = 1) -> String {
+        let dateComponentsFormatter = DateComponentsFormatter()
+        dateComponentsFormatter.allowedUnits = [.second, .minute, .hour, .day, .weekOfMonth, .month, .year]
+        dateComponentsFormatter.maximumUnitCount = maxUnitsCount
+        dateComponentsFormatter.unitsStyle = .short
+        return dateComponentsFormatter.string(from: start, to: end) ?? ""
+    }
 }
