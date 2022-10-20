@@ -35,6 +35,10 @@
 		3791778528FEEE7400C116D9 /* TimeFormatterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3791778428FEEE7400C116D9 /* TimeFormatterTests.swift */; };
 		3791778628FEEFB200C116D9 /* TimeFormatterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3791778428FEEE7400C116D9 /* TimeFormatterTests.swift */; };
 		3791778728FEEFB300C116D9 /* TimeFormatterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3791778428FEEE7400C116D9 /* TimeFormatterTests.swift */; };
+		3791779729013F3B00C116D9 /* ShortIsoDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3791779629013F3B00C116D9 /* ShortIsoDate.swift */; };
+		3791779829013F3C00C116D9 /* ShortIsoDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3791779629013F3B00C116D9 /* ShortIsoDate.swift */; };
+		3791779929013F3C00C116D9 /* ShortIsoDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3791779629013F3B00C116D9 /* ShortIsoDate.swift */; };
+		3791779A29013F3C00C116D9 /* ShortIsoDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3791779629013F3B00C116D9 /* ShortIsoDate.swift */; };
 		3D9C42A222745900000A6585 /* Tomorrow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9C42A122745900000A6585 /* Tomorrow.swift */; };
 		3D9C42B1227459C1000A6585 /* Tomorrow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9C42A122745900000A6585 /* Tomorrow.swift */; };
 		3D9C42BF227459F6000A6585 /* Tomorrow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9C42A122745900000A6585 /* Tomorrow.swift */; };
@@ -108,6 +112,7 @@
 		3751EA8A28FDEE1400657188 /* DateIntervalComponentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateIntervalComponentTests.swift; sourceTree = "<group>"; };
 		3791777F28FEE38400C116D9 /* TimeFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeFormatter.swift; sourceTree = "<group>"; };
 		3791778428FEEE7400C116D9 /* TimeFormatterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeFormatterTests.swift; sourceTree = "<group>"; };
+		3791779629013F3B00C116D9 /* ShortIsoDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortIsoDate.swift; sourceTree = "<group>"; };
 		3D9C429022745894000A6585 /* Tomorrow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Tomorrow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D9C429C227458E8000A6585 /* Tomorrow.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Tomorrow.plist; sourceTree = "<group>"; };
 		3D9C429D227458E8000A6585 /* TomorrowTests.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TomorrowTests.plist; sourceTree = "<group>"; };
@@ -252,6 +257,7 @@
 				372075472861F8B600A37019 /* DateComponents.swift */,
 				3751EA8528FDEB3100657188 /* DateInterval+Components.swift */,
 				3791777F28FEE38400C116D9 /* TimeFormatter.swift */,
+				3791779629013F3B00C116D9 /* ShortIsoDate.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -681,6 +687,7 @@
 				3724C9322439147C0074F94F /* Date+String.swift in Sources */,
 				3751EA8628FDEB3100657188 /* DateInterval+Components.swift in Sources */,
 				372075482861F8B600A37019 /* DateComponents.swift in Sources */,
+				3791779729013F3B00C116D9 /* ShortIsoDate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -694,6 +701,7 @@
 				3724C9332439147C0074F94F /* Date+String.swift in Sources */,
 				3751EA8728FDEB3100657188 /* DateInterval+Components.swift in Sources */,
 				372075492861F8B600A37019 /* DateComponents.swift in Sources */,
+				3791779829013F3C00C116D9 /* ShortIsoDate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -707,6 +715,7 @@
 				3724C9342439147C0074F94F /* Date+String.swift in Sources */,
 				3751EA8828FDEB3100657188 /* DateInterval+Components.swift in Sources */,
 				3720754A2861F8B600A37019 /* DateComponents.swift in Sources */,
+				3791779929013F3C00C116D9 /* ShortIsoDate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -720,6 +729,7 @@
 				3724C9352439147C0074F94F /* Date+String.swift in Sources */,
 				3751EA8928FDEB3100657188 /* DateInterval+Components.swift in Sources */,
 				3720754B2861F8B600A37019 /* DateComponents.swift in Sources */,
+				3791779A29013F3C00C116D9 /* ShortIsoDate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
