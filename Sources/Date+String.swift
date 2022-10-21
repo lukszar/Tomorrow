@@ -30,4 +30,13 @@ public extension Date {
     static func fromISO(_ string: String) -> Date? {
         return Tomorrow.date(from: string)
     }
+    
+    /**
+     Date in ISO format string, including time and miliseconds.
+     
+     - Author: Mobilee - Łukasz Szarkowicz
+     */
+    var isoDateString: String {
+        return Tomorrow.string(from: self, milliseconds: true)
+    }
 }

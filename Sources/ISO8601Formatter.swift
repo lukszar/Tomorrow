@@ -10,7 +10,7 @@ import Foundation
 
 protocol ISO8601Formatter {
     func date(from string: String) -> Date?
-    func string(from date: Date, milliseconds: Bool) -> String?
+    func string(from date: Date, milliseconds: Bool) -> String
 }
 
 class OldISO8601Formatter: ISO8601Formatter {
@@ -46,7 +46,7 @@ class OldISO8601Formatter: ISO8601Formatter {
         }
     }
     
-    func string(from date: Date, milliseconds: Bool) -> String? {
+    func string(from date: Date, milliseconds: Bool) -> String {
         if milliseconds {
             return iso8601FormatterWithMilliseconds.string(from: date)
         } else {
@@ -98,7 +98,7 @@ class NewISO8601Formatter: ISO8601Formatter {
         }
     }
     
-    func string(from date: Date, milliseconds: Bool) -> String? {
+    func string(from date: Date, milliseconds: Bool) -> String {
         if milliseconds {
             return iso8601FormatterWithMilliseconds.string(from: date)
         } else {

@@ -30,7 +30,7 @@ public class Tomorrow {
         return shared.formatter.date(from: string)
     }
     
-    public static func string(from date: Date, milliseconds: Bool) -> String? {
+    public static func string(from date: Date, milliseconds: Bool) -> String {
         return shared.formatter.string(from: date, milliseconds: milliseconds)
     }
 }
